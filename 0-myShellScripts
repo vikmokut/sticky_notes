@@ -1,0 +1,49 @@
+HOW TO WRITE EXECUTABLE SHELL COMMANDS
+
+Description: This is a simple guide to writing executable shell commands that can be called by their exact name without specifying the absolute path.
+
+Open your terminal;
+
+1. Create a folder (preferably in the root directory) where you will keep all of your script files.
+
+2. Create a file and open for editing using your preferred text editor.
+
+3. Write your script command #!/bin/bash or #!/bin/sh depending on your shell.
+
+4. Write the commands into your file to describe the operation to be performed by the script your are creating.
+
+5. Save and quit your file.
+
+6. Make your file executable using the chmod command.
+
+7. Open the .bashrc file in your home (~/) directory with your preferred editor. This requires admin privileges.
+
+8. Add you directory containing your executable files to path by typing in: PATH="absolute_dir_path:$PATH"
+
+9. Exit terminal and reopen it.
+
+Now any excutable scripts in this directory can be called from anywhere in your terminal.
+
+-----example-----
+
+Assumiing we create a folder called "ease" in our root directory and a file named "a" - that lists all files in long format including hidden files.
+
+- open terminal
+- cd /
+- mkdir ease
+- vi a
+
+Content of a below:
+
+#!/bin/bash
+ls -l -a
+
+- :wq
+- chmod +x a
+- cd
+- sudo vi .bashrc
+- PATH="/ease:$PATH"
+- :wq
+- Exit and reopen terminal
+
+Now just like ls, pwd... you can simply type a and it lists all files and directories in the current working directory in long format including hidden files.
