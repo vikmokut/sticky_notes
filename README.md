@@ -6,10 +6,19 @@ Acts as a reference.
 
 ## CONTENTS
 
+# C programming Concepts
+- [Variadic Function](https://github.com/vikmokut/sticky_notes/blob/main/variadic_func.txt)
+- [Linked List](https://github.com/vikmokut/sticky_notes/blob/main/linked_list.txt)
+
+# Shell/Terminal
+- [Shell Scripting](https://github.com/vikmokut/sticky_notes/blob/main/shell_scripting)
+
+# Program Installations & Setups
 - [Vagrant Setup](https://github.com/vikmokut/sticky_notes/blob/main/vagrant_setup)
+- [Betty Linter Setup](https://github.com/vikmokut/sticky_notes/blob/main/betty_setup)
 
-* [Variadic Function](https://github.com/vikmokut/sticky_notes/blob/main/variadic_func.txt)
-
+# General Programming Concepts
+- [Pseudo Coding](https://github.com/vikmokut/sticky_notes/edit/main/Pseudo_coding.txt)
 
 ***Author***
 
