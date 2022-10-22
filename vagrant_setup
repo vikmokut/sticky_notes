@@ -1,0 +1,92 @@
+###VAGRANT
+
+###***SETUP FOR UBUNTU/FOCAL64***
+
+##Windows
+
+- Download VirtualBox from this link
+- Install VirtualBox
+- Download Vagrant from this link
+- Install Vagrant
+- Open the command prompt
+- Add the Ubuntu 20.04 (Focal) image to your box list:
+C:\Users\vikmo> vagrant box add ubuntu/focal64
+**Warning:** 	This step can take time
+**PS:**		Many other images are available to use
+
+#Create your first virtual machine:
+C:\Users\vikmo> vagrant init ubuntu/focal64
+-> it will generate a Vagrantfile with base = "ubuntu/focal64" 
+-> you don’t have to execute this command line everyday, only once, to create a new virtual machine 
+C:\Users\vikmo> vagrant plugin install vagrant-vbguest 
+-> to avoid issue with the last version of Vagrant (2.2.4 or latest)
+C:\Users\vikmo> vagrant up -> it will start your virtual machine 
+C:\Users\vikmo> vagrant ssh -> now you are inside your virtual machine. 
+
+
+##UBUNTU OS
+
+- Open the Terminal application:
+- Now you will execute command line in your Terminal (each of them start with $)
+- Install VirtualBox: $ sudo apt-get install virtualbox
+- Install Vagrant: $ sudo apt-get install vagrant
+- Add the Ubuntu 20.04 (Focal) image to your box list: $ vagrant box add ubuntu/focal64 Warning: this step can take time
+
+#Create your first virtual machine:
+$ vagrant init ubuntu/focal64 -> it will generate a Vagrantfile with base = "ubuntu/focal64"
+**PS:** You don’t have to execute this command line everyday, only once, to create a new virtual machine
+$ vagrant up -> it will start your virtual machine
+$ vagrant ssh -> now you are inside your virtual machine.
+
+##Mac OSx
+
+- Download VirtualBox from this link
+- Install VirtualBox
+- Download Vagrant from this link
+- Install Vagrant
+- Open the Terminal application:
+- Now you will execute command line in your Terminal (each of them start with $)
+- Add the Ubuntu 20.04 (Focal) image to your box list: $ vagrant box add ubuntu/focal64 Warning: this step can take time
+
+#Create your first virtual machine:
+$ vagrant init ubuntu/focal64 -> it will generate a Vagrantfile with base = "ubuntu/focal64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine 
+$ vagrant up -> it will start your virtual machine 
+$ vagrant ssh -> now you are inside your virtual machine.
+
+##COMMANDS/HELP
+
+Usage: vagrant [options] <command> [<args>]
+
+Common commands:
+     autocomplete    manages autocomplete installation on host
+     box             manages boxes: installation, removal, etc.
+     cloud           manages everything related to Vagrant Cloud
+     destroy         stops and deletes all traces of the vagrant machine
+     global-status   outputs status Vagrant environments for this user
+     halt            stops the vagrant machine
+     help            shows the help for a subcommand
+     init            initializes a new Vagrant environment by creating a Vagrantfile
+     login
+     package         packages a running vagrant environment into a box
+     plugin          manages plugins: install, uninstall, update, etc.
+     port            displays information about guest port mappings
+     powershell      connects to machine via powershell remoting
+     provision       provisions the vagrant machine
+     push            deploys code in this environment to a configured destination
+     rdp             connects to machine via RDP
+     reload          restarts vagrant machine, loads new Vagrantfile configuration
+     resume          resume a suspended vagrant machine
+     serve           start Vagrant server
+     snapshot        manages snapshots: saving, restoring, etc.
+     ssh             connects to machine via SSH
+     ssh-config      outputs OpenSSH valid configuration to connect to the machine
+     status          outputs status of the vagrant machine
+     suspend         suspends the machine
+     up              starts and provisions the vagrant environment
+     upload          upload to machine via communicator
+     validate        validates the Vagrantfile
+     vbguest         plugin: vagrant-vbguest: install VirtualBox Guest Additions to the machin
+e
+     version         prints current and latest Vagrant version
+     winrm           executes commands on a machine via WinRM
+     winrm-config    outputs WinRM configuration to connect to the machine
