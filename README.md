@@ -1,6 +1,7 @@
-#STICKY NOTES/DOCUMENTATIONS
+# STICKY NOTES/DOCUMENTATIONS
 
 This repo simply holds concise description for processes. 
+
 Concepts I have grasped are documented in as simple as possible, step by step format (where possible).
 Acts as a reference.
 
@@ -20,8 +21,10 @@ Acts as a reference.
 #### General Programming Concepts
 - [Pseudo Coding](https://github.com/vikmokut/sticky_notes/edit/main/Pseudo_coding.txt)
 
+
+
+
+
 ***Author***
-
 [Victor Mokut](https://linkedin.com/in/victor-mokut)
-
 ##
