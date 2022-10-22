@@ -3,6 +3,7 @@
 This repo simply holds concise description for processes. 
 
 Concepts I have grasped are documented in as simple as possible, step by step format (where possible).
+
 Acts as a reference.
 
 ### CONTENTS
@@ -26,5 +27,6 @@ Acts as a reference.
 
 
 ***Author***
+
 [Victor Mokut](https://linkedin.com/in/victor-mokut)
 ##
