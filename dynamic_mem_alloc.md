@@ -5,7 +5,7 @@
 malloc - "memory allocation": 
 - returns a point of type void(which can be cast into a pointer of any form)
 - syntax: ptr(must be a pointer) = (cast-type*)malloc(byte-size)
-- eg int *ptr = (int*)malloc(100 * sizeof(int));
+- eg int \*ptr = (int\*)malloc(100 \* sizeof(int));
 	- allocates 100 * 4(int size) = 400byte of memory
 	- ptr holds the address of the first byte of memory
 	- ptr can therefore be used to access every other bytes of memory.
