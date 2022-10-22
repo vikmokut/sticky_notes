@@ -1,25 +1,27 @@
-### STICKY NOTES/DOCUMENTATIONS
+#STICKY NOTES/DOCUMENTATIONS
 
-This repo simply holds concise description for processes.
-Concepts I have grasped are documented in as simple as possible step by step format where possible.
+This repo simply holds concise description for processes. 
+Concepts I have grasped are documented in as simple as possible, step by step format (where possible).
 Acts as a reference.
 
-## CONTENTS
+### CONTENTS
 
-# C programming Concepts
+#### C programming Concepts
 - [Variadic Function](https://github.com/vikmokut/sticky_notes/blob/main/variadic_func.txt)
 - [Linked List](https://github.com/vikmokut/sticky_notes/blob/main/linked_list.txt)
 
-# Shell/Terminal
+#### Shell/Terminal
 - [Shell Scripting](https://github.com/vikmokut/sticky_notes/blob/main/shell_scripting)
 
-# Program Installations & Setups
+#### Program Installations & Setups
 - [Vagrant Setup](https://github.com/vikmokut/sticky_notes/blob/main/vagrant_setup)
 - [Betty Linter Setup](https://github.com/vikmokut/sticky_notes/blob/main/betty_setup)
 
-# General Programming Concepts
+#### General Programming Concepts
 - [Pseudo Coding](https://github.com/vikmokut/sticky_notes/edit/main/Pseudo_coding.txt)
 
 ***Author***
 
 [Victor Mokut](https://linkedin.com/in/victor-mokut)
+
+##
