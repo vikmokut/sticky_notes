@@ -21,7 +21,7 @@ linear typed(arranged sequentially) DATA STRUCTURE.
 
 i) 	Declare a struct for your node: defining the data items to hold, and pointer.
 
-ii)	Declare your nodes using your struct as data type.
+ii)	Declare your nodes(as pointers) using your struct as data type.
 
 iii)	Dynamically allocate memory, the size of your struct.
 
