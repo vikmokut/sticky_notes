@@ -1,4 +1,4 @@
-### LINKED LIST
+# LINKED LIST
 
 Similar to an array, a linked list is a DATA STRUCTURE;
 a storage used for organizing and processing data.
@@ -12,12 +12,12 @@ Every Node/structure has two important properties:
 * Data item (of any given data type)
 * Pointer - to the next node
 
-There are several types of linked lists based on their features:
+***There are several types of linked lists based on their features:***
 1. Singly linked list:
 2. Doubly linked list:
 
 ==========practice, practice, practice==========
-## DECLARING A LINKED LIST:
+### DECLARING A LINKED LIST:
 
 i) 	Declare a struct for your node: defining the data items to hold, and pointer.
 ii)	Declare your nodes using your struct as data type.
