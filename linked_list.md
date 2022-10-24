@@ -6,9 +6,9 @@ a storage used for organizing and processing data.
 LL is a dynamic (non-fixed memory size, can be randomly updated at runtime),
 linear typed(arranged sequentially) DATA STRUCTURE.
 
-Each element in a linked list is a NODE or Structure(data).
+**Each element in a linked list is a NODE or Structure(data).**
 
-Every Node/structure has two important properties:
+***Every Node/structure has two important properties:***
 * Data item (of any given data type)
 * Pointer - to the next node
 
