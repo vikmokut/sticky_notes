@@ -20,8 +20,11 @@ Every Node/structure has two important properties:
 ### DECLARING A LINKED LIST:
 
 i) 	Declare a struct for your node: defining the data items to hold, and pointer.
+
 ii)	Declare your nodes using your struct as data type.
+
 iii)	Dynamically allocate memory, the size of your struct.
+
 iv)	a) Assign values to each node &
 	b) Link current node to next node (This is the linked list concept)
 ==========practice, practice, practice==========
