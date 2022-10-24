@@ -9,8 +9,8 @@ Acts as a reference.
 ### CONTENTS
 
 #### C programming Concepts
-- [Variadic Function](https://github.com/vikmokut/sticky_notes/blob/main/variadic_func.txt)
-- [Linked List](https://github.com/vikmokut/sticky_notes/blob/main/linked_list.txt)
+- [Variadic Function](https://github.com/vikmokut/sticky_notes/blob/main/variadic_func.md)
+- [Linked List](https://github.com/vikmokut/sticky_notes/blob/main/linked_list.md)
 
 #### Shell/Terminal
 - [Shell Scripting](https://github.com/vikmokut/sticky_notes/blob/main/shell_scripting)
@@ -20,7 +20,7 @@ Acts as a reference.
 - [Betty Linter Setup](https://github.com/vikmokut/sticky_notes/blob/main/betty_setup)
 
 #### General Programming Concepts
-- [Pseudo Coding](https://github.com/vikmokut/sticky_notes/edit/main/Pseudo_coding.txt)
+- [Pseudo Coding](https://github.com/vikmokut/sticky_notes/edit/main/Pseudo_coding.md)
 
 
 
